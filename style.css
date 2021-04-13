@@ -28,17 +28,12 @@ a {
   border: 1px solid black;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-}
-
 .wrapper {
   flex: 1;
   min-width: 300px;
 }
 
-p, ul {
+p, ul, img {
   display: block;
 }
 
