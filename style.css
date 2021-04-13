@@ -1,3 +1,5 @@
+
+/*General Rules*/
 html{
   box-sizing: border-box;
   font-family: 'Andale Mono', Courier,'Arial Narrow', monospace;
@@ -12,11 +14,19 @@ header, footer, nav {
   background-color: #6D454C;
   color: #EBBB92;
 }
+
+/*General Box-spacing formatting*/
 header, article {
   padding: 0% 2%;
   min-width: 650px; 
 }
 
+.wrapper {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Text formating in links and paragraphs*/
 a {
   display: inline-block;
   font-size: 16px;
@@ -28,21 +38,18 @@ a {
   border: 1px solid black;
 }
 
-.wrapper {
-  flex: 1;
-  min-width: 300px;
-}
-
 p, ul, img {
   display: block;
 }
 
-
+/*Section Specific coloring*/
 #about, #projects{
   background-color: #D7FFAB;
   padding: 20px;
   color: #31465E;
 }
+
+/*Child element specific formating*/
 #about > img {
   max-height: 150px;
   text-align: center;
@@ -61,7 +68,7 @@ h2, h3{
   text-align: center;
 }
 
-
+/*Pseudo styling for the links in the nav*/
 a:link {
   color: white;
 }
