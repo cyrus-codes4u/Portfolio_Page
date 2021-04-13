@@ -10,7 +10,7 @@ html{
 
 header, footer, nav {
   background-color: #6D454C;
-  color: #D89D6A;
+  color: #EBBB92;
 }
 header, article {
   display: flex;
@@ -20,7 +20,6 @@ header, article {
 
 a {
   display: inline-block;
-  font-family: ;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
@@ -53,6 +52,21 @@ a {
 #contact img{
   width: 40px;
 }
-h2{
+h2, h3{
   text-align: center;
 }
+
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: #87d5e1;
+}
+a:hover {
+  color: #FCEBAA;
+}
+a:active {
+  color: ##F5AAFC;
+}
+
