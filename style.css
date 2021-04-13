@@ -13,7 +13,6 @@ header, footer, nav {
   color: #EBBB92;
 }
 header, article {
-  display: flex;
   padding: 0% 2%;
   min-width: 650px; 
 }
