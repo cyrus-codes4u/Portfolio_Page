@@ -4,21 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Cyrus Glanzer Portfolio Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header>
-      <div class = "wrapper">
+    <header class = "container-fluid">
+      <div class="row">
+      <div class = "col-6-sm">
         <h1>Cyrus Glanzer</h1>
         <h2>Web Developer</h2>
       </div>
-      <div class = "wrapper">
-        <nav>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-          <a href="#projects">Projects</a>
-        </nav>
+      <nav class = "d-flex col-6-sm">
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
       </div>
     </header>
 
