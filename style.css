@@ -3,7 +3,6 @@
 html{
   box-sizing: border-box;
   font-family: 'Andale Mono', Courier,'Arial Narrow', monospace;
-  margin: 0px;
 }
 
 *, *:before, *:after {
@@ -16,7 +15,6 @@ header, footer{
 }
 
 /*General Box-spacing formatting */
-
 section {
   padding: 6rem 3rem;
 }
@@ -33,12 +31,12 @@ section {
 }
 
 /*Child element specific formating*/
-
 #contact img{
   width: 40px;
   height: 40px;
 }
 
+/* Typography */
 h1{
   font-size: 2rem;
 }
@@ -53,12 +51,12 @@ p{
 }
 
 /*Pseudo styling for the links in the nav*/
-a:link {
+a:link, :visited {
   color: #EBBB92;
 }
-a:visited {
+/* a:visited {
   color: #87d5e1;
-}
+} */
 a:hover {
   color: #FCEBAA;
 }
