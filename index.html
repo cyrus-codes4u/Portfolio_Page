@@ -9,38 +9,37 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header class = "container-fluid">
-      <div class="row">
-      <div class = "col-6-sm">
-        <h1 class="text-sm-left">Cyrus Glanzer</h1>
-        <h2>Web Developer</h2>
-      </div>
-      <nav class = "d-flex col-6-sm">
-        <ul class="nav">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a href="#contact">Contact</a></li>
-          <li class="nav-item"><a href="#projects">Projects</a></li>
-        </ul>
-      </nav>
+    <header class = "sticky-top container-fluid">
+      <div class="row justify-content-around align-items-center">
+        <div class = "col-sm text-center text-sm-left">
+          <h1 class="">Cyrus Glanzer</h1>
+          <h2 class="">Web Developer</h2>
+        </div>
+        <nav class = "d-flex justify-content-center col-sm">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
-    <main>
+    <main class="container-fluid">
       <!-- Introduction Section -->
-      <section id="intro" >
-        <h2> Hi! I'm Cyrus Glanzer </h2>
-        <article class="wrapper" >
-          <h3>Software Developer</h3>
-          <p>I'm a budding software developer based out of Brooklyn, NY. </p>
-          <p>Thank you for coming to my portfolio site. Check out some of my work below. </p>
+      <section id="intro" class="row justify-content-center">
+        <article class="column" >
+          <h2>Hi! I'm Cyrus Glanzer </h2>
+          <h3>Web Developer</h3>
+          <p> I'm a budding software developer based out of Brooklyn, NY. </p>
+          <p>Welcome to my portfolio site. Check out some of my work below. </p>
         </article>
       </section>
-      <hr>
       
       <!-- About Me Section -->
-      <section id="about" >
-        <h2>About Me</h2>
-        <article class = "wrapper">
+      <section id="about" class="row">
+        <article class ="col-sm">
+          <h2>About Me</h2>
           <h3>A Creative at Heart</h3>
           <p>As a recent graduate with a degree in art history and theory, I wasn't sure what I wanted to do with my career.</p>
           <p> But then I realized: what better way to merge my passions for writing and visual communication than through web development?  That is all this webpage is. It is written content in a visually compelling format.</p>
@@ -55,13 +54,15 @@
           <p>I will be posting updates on projects here, so keep checking in.</p>
         </article>  
         <!-- Image should display next to above text -->
-        <img src="images/drawing.jpg" alt="Cyrus intently drawing with charcoal on a picnic table">
+        <div class="col-sm d-flex align-items-center"> 
+          <img class="img-fluid" src="images/drawing.jpg" alt="Cyrus intently drawing with charcoal on a picnic table">
+        </div>
       </section>
-      <hr>
+    
       
-      <!-- Contact Section with Links-->
-      <section id="contact">
-        <div class = "wrapper">
+      <!-- Contact Section with Links -->
+      <section id="contact" class="row">
+        <article class="col">
           <h2>Contact Me</h2>
           <p>Feel free to reach out</p>
           <!-- Unordered List with  links to LinkedIn, Gmail and Github pages -->
@@ -76,18 +77,19 @@
               <a href="mailto:cyrusglanzer@gmail.com"><img src="images/gmail-logo.png" alt="GMail envelope logo"></a>
             </li>
           </ul>
-        </div>
+        </article>
       </section>
-      <hr>
+    
       
-      <!-- Portfolio section, projects will be added as they are finished-->
+      <!-- Portfolio section, projects will be added as they are finished
       <section class= "wrapper" id="projects">
         <h2>Projects</h2>
         <br>
         <p>My portfolio page is all I have just yet. Check later to see what I will create!</p>
       </section>
+      -->
     </main>
-
+    
     <footer>
       <p>&copy; Cyrus Glanzer</p>
     </footer>
